@@ -16,7 +16,7 @@ void	ft_bzero(void *s, size_t n);
 
 int	main()
 {
-unsigned char	s[] = "fatma";
+unsigned char	s[] = "tamil";
 ft_bzero(s, 3);
 printf("%s", s);
 }
