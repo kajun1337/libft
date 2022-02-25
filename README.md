@@ -8,7 +8,7 @@
 
 
 
-# About Test Result
+# About Tester(LibfTester,libft-unit-test..etc) Result
 > Don't worry about the tester, almost all of them are faulty.
 
 
