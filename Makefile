@@ -14,7 +14,7 @@ NAME = libft.a
 CC = gcc
 FLAGS = -Wall -Wextra -Werror
 
-SRC = $(shell find . -type f ! -name "ft_lst*.c" -name "ft_*.c")
+SRC = $(shell find . -type f ! -name "ft_lst*.c" ! -name "*_main.c" -name "ft_*.c")
 
 OBJ = $(SRC:.c=.o)
 BSRC	= $(wildcard ft_lst*.c)
